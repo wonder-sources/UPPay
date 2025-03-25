@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                    = "UPPay"
-  s.version                 = "0.1.1"
+  s.version                 = "0.1.2"
   s.summary                 = "Wonder UPPAY SDK for iOS devices"
   s.description             = "中国银联云闪付iOS SDK"
 
@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
     :tag => "#{s.version}" 
   }
   s.ios.vendored_libraries = "UPPay/libUPPay.a"
-  s.public_header_files = "UPPay/UPPay.h"
+  s.source_files = 'UPPay/*.h'
   s.static_framework = true
 end
